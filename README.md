@@ -1,2 +1,8 @@
-# learning-python
-personal space for Python practice codes.
+# python-study
+
+just started.
+saving some practice scripts here. 
+
+notes:
+- basic variables (next)
+- try to upload something every few days.
