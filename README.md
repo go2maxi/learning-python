@@ -1,8 +1,1 @@
-# python-study
-
-just started.
-saving some practice scripts here. 
-
-notes:
-- basic variables (next)
-- try to upload something every few days.
+Building a solid Python foundation through small, practical scripts, with a focus on clean and reusable patterns.
