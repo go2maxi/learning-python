@@ -1,3 +1,2 @@
 Checked id(self) and id(instance) — they are the same object.
 That finally made 'self' click.
-
