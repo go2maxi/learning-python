@@ -1,2 +1,18 @@
 Checked id(self) and id(instance) — they are the same object.
 That finally made 'self' click.
+
+
+[2026-03-09]
+Today I experimented with object identity in Python.
+
+The id of the instance and self were the same,
+which makes sense because self refers to the instance itself.
+
+Two instances created from the same class had different ids,
+so instance_a is instance_b returned False.
+
+I also tested integers.
+Both 256 and 257 returned True with "is" in this run.
+From what I read, Python always caches small integers
+and sometimes larger integers may share the same object
+depending on how they are created.
