@@ -5,3 +5,5 @@ count = 3
 
 for i in range(count):
     print(f"Hello, {name}!")
+
+# was checking how f-string works here

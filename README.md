@@ -1,16 +1,29 @@
 # Learning Python
 
-Building a solid Python foundation through small, practical scripts, with a focus on clean and reusable patterns.
+This repo is just where I’ve been keeping small Python scripts while learning.
 
-This repository is for **learners** who want to understand how Python actually works under the hood — not just write code that “works.”
+Most of them come from things I didn’t fully understand at first,  
+so I tried to break them down in simple ways and test them myself.
 
 ---
 
-### Current focus
-Lately, I’ve been revisiting the basics to deepen my understanding of how Python really works:
+### What I’ve been working on
 
-- The "self" and memory in OOP: understanding how instance variables and classes relate in memory (verifying identity with id())
-- Iterators and the iterator protocol
-- How `for` loops work internally
+Recently I kept getting stuck on a few basic things:
 
-These topics often confuse beginners (they definitely confused me), so the examples here start from first principles and build up gradually.
+- how `self` actually works in classes (especially checking with `id()`)
+- iterators and how they move through data
+- what a `for` loop is really doing behind the scenes
+
+These felt simple at first, but got confusing when I tried to explain them or debug issues.
+
+---
+
+Most files here are small experiments.
+
+Sometimes I just write something, run it, break it, and try again.  
+Then leave a short note about what I misunderstood.
+
+Some scripts under /scripts are very basic — I was just testing syntax or small ideas at the time.
+
+Not everything is clean or complete yet.
